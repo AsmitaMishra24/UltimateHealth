@@ -1,3 +1,4 @@
+
 <a id="top"></a>
 <h1 align="center">UltimateHealth (HealthGuide)</h1>
 <h3 align="center">    
@@ -6,6 +7,12 @@
 </h3>
 
 <br/>
+
+# Small Note:
+
+## After 9th August, 2024 no contributions will be accepted for this repository under GSSOC. It is important to note that this is immutable and cannot be changed.
+
+
 <table align="center">
     <thead align="center">
         <tr border: 1px;>
@@ -53,7 +60,7 @@
 </table>
 <hr>
 <!--ABOUT US--->
-:zap: ABOUT Us:
+:zap: About Us:
 UltimateHealth is an innovative open-source project that aims to provide a comprehensive online library and article management application focused on health. The project is designed to cater to users looking for reliable and trustworthy information on various health-related topics.
 
 <hr>
@@ -76,17 +83,19 @@ UltimateHealth is an innovative open-source project that aims to provide a compr
   <img src="https://github.com/Vi1234sh12/Face-X/blob/master/.github/Assests/isometric.png" height="290px" align="right"/>
   <summary><h2>:pushpin:Contents: </h2></summary>
 
-- [Features](https://github.com/SB2318/UltimateHealth#features)
-- [Technology Stack](https://github.com/SB2318/UltimateHealth#technology-stack)
-- [Project Requirements](https://github.com/SB2318/UltimateHealth#project-requirements)<br>
-      - [Install JDK](https://github.com/SB2318/UltimateHealth#install-jdk)<br>
-      - [Set Up Android Development Environment](https://github.com/SB2318/UltimateHealth#setting-android_home-environment-variable)
-- [Getting Started](https://github.com/SB2318/UltimateHealth#getting-started)<br>
-      - [Frontend](https://github.com/SB2318/UltimateHealth#for-frontend)<br>
-      - [Backend](https://github.com/SB2318/UltimateHealth#for-backend)
-- [Testing Frontend with Localhost Backend Server](https://github.com/SB2318/UltimateHealth#testing-frontend-with-localhost-backend-server)
-- [Contribution Guidelines](https://github.com/SB2318/UltimateHealth#contribution-guidelines)
-- [Our Contributors](https://github.com/SB2318/UltimateHealth#our-contributors-%EF%B8%8F)
+- [Features](#features-crystal_ball)🔮
+- [Project Requirements](#project-requirements-mailbox_with_mail)📬
+- [Getting Started](#getting-started-zap)⚡<br>
+- ✨[Contribution Guidelines:](#sparklescontribution-guidelines)
+- ⚡[Our Vision:](#zapour-vision)
+- ✍️ [Feedback and Support:](#%EF%B8%8F-feedback-and-support)
+- 🤝[Code of Conduct:](#-code-of-conduct)
+- 📃[License:](#-license)
+- [Contact Us:](#contact-us)
+- [Our Contributors](#our-contributors-%EF%B8%8F)❤️
+- 🙏🏻[Support](#-support-)
+
+ 
  <!---------------------------------------------------------------------- FEATURES--------------------------------------------------------------->
  <details>
    <summary><h3>Features :crystal_ball:</h3></summary>
@@ -99,6 +108,17 @@ From the beginner's perspective, the project consists of three main modules: Art
 * Backend Development
 
 Users can also listen to articles (audio features) if they prefer. The Chat Section features a guide bot that helps users solve health-related problems.:sparkles:
+
+## Features Left 
+
+ *  MultiLanguage Feature
+ *  PodCast
+ *  Profile API Integration 
+ *  Article API Integration 
+ *  Search & Filter Feature 
+ *  User Insights
+ *  Article Post via file upload
+
   </details>
 
    <!--------------------------------------------------------- PROJECT REQUIREMENTS-------------------------------------------------------------------------------->
@@ -106,11 +126,16 @@ Users can also listen to articles (audio features) if they prefer. The Chat Sect
   <details>
    <summary><h3>Project Requirements :mailbox_with_mail:</h3></summary>
    
-   
    * Java installed on your machine. (**Java version:**  17)
+     - [Install JDK](#install-jdk)
    * Android Studio installed on your machine.
+     - [Set Up Android Development Environment](#setting-android_home-environment-variable) 
    
-###  Install JDK:
+ 
+
+
+
+### Install JDK: 
 
 To ensure that your project runs smoothly, make sure you have Java 17 installed on your system. You can follow these steps to set up Java 17:
 
@@ -145,7 +170,6 @@ To ensure that your project runs smoothly, make sure you have Java 17 installed 
 * Run the downloaded installer and follow the installation instructions.
 * After the installation is complete, you can verify the installation by opening a Command Prompt window and running the command java -version. It should display the installed JDK version.
 
-
 ### Setting JAVA_HOME on Windows:
 
 * Right-click on the Windows Start button and select "System".
@@ -173,6 +197,7 @@ To set the **ANDROID_HOME** variable for both Windows and macOS, you can follow 
 * Enter the path to the Android SDK directory as the variable value. (Default Path: ` C:\Users\User_Name\AppData\Local\Android\Sdk `)
 * Click "OK" to save the changes.
 
+
 ### macOS:
 
 * Open a terminal window.
@@ -185,147 +210,171 @@ To set the **ANDROID_HOME** variable for both Windows and macOS, you can follow 
 
 Please note that the exact path to the Android SDK directory may vary depending on how you installed it. Make sure to replace **/path/to/android/sdk** with the correct path on your system.
   </details>
+  
 <!-------------------------------------------------------------------GETTING STARTED------------------------------------------------------------------------------->
 
-  <details>
-   <summary><h3>Getting Started :zap:</h3></summary>
+ <details>
+   <summary><h3>Getting Started ⚡️</h3></summary>
+
+   * [Initial Setup](#follow-these-steps-to-get-started-with-ultimatehealth) 🛠️
    
+   * Development Guides:<br>
+     - [Frontend](#for-frontend) 🌐<br>
+     - [Backend](#for-backend) 🖥️
+
+   * [Testing Frontend with Localhost Backend Server](#testing-frontend-with-localhost-backend-server) 🧪
+
+---
+
 ### Follow these steps to get started with UltimateHealth:
 
-**Clone the repository:**
+1. **Clone the Repository:**
 
-```
-https://github.com/SB2318/UltimateHealth.git
-```
-**Change the directory**
+   ```bash
+   git clone https://github.com/SB2318/UltimateHealth.git
+   ```
+   
+2. **Change to the Project Directory:**
 
-```
-cd  UltimateHealth
-```
+   ```bash
+   cd UltimateHealth
+   ```
 
-**Checkout the develop branch and select your preferences (backend or frontend)**.
+3. **Checkout the Development Branch:**
 
-```
- git checkout develop
-```
-### If you couldn't find the 'develop' branch in your own forked repository, please go to [CONTRIBUTING.md](./CONTRIBUTING.md) and follow the instructions written in detail.
+   ```bash
+   git checkout develop
+   ```
 
-## For Frontend:
+   If the 'develop' branch is not available in your forked repository, refer to the detailed instructions in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+## For Frontend: 🌐
 
-**Install dependencies:**
+1. **Install Dependencies:**
 
-```
-npm install --legacy-peer-deps
-```
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
-**Configure the application: (For IOS and Backend)**
+2. **Configure the Application:**
 
-Update the configuration files if necessary. Ensure the Ethereum wallet connection details are set.
+   Update configuration files as needed, ensuring Ethereum wallet connection details are set.
 
+3. **Run the Frontend Server:**
 
-**Run the applications**.
+   - For Android:
 
-To run the frontend server use:
- 
-For android:
-`npm run android`
+     ```bash
+     npm run android
+     ```
 
-For ios: 
-`npm run ios`
+   - For iOS:
 
-## For Backend:
+     ```bash
+     npm run ios
+     ```
 
-## MongoDB Installation
+## For Backend: 🖥️
 
-1. **Install MongoDB**
-   - Download the appropriate MongoDB installation package for your operating system from the official MongoDB website: https://www.mongodb.com/try/download
-   - Follow the installation instructions for your specific platform.
+### MongoDB Installation:
 
-2. **Set up a MongoDB database**
-   - After installation, start the MongoDB server by running the `mongod` command.
-   - MongoDB will create a default data directory to store your databases.
-   - Use the `mongo` shell or a GUI client like MongoDB Compass to interact with your databases.
+1. **Install MongoDB:**
 
-3. **Follow the Steps to Initialize the backend server**
+   - Download the MongoDB package for your OS from [MongoDB's official website](https://www.mongodb.com/try/download).
+   - Follow the installation instructions for your platform.
 
-## Setting up a Backend Server
+2. **Set up MongoDB Database:**
 
-Follow the steps to set backend in your system
+   - Start the MongoDB server with the `mongod` command.
+   - Use `mongo` shell or a GUI client like MongoDB Compass to interact with your databases.
 
-```
- cd backend
-```
-Create .env file if not present and add the following variables in the file
+3. **Initialize the Backend Server:**
 
-```
-PORT=
-MONGODB_URL=""
-JWT_SECRET=""
-```
+### Setting up the Backend Server:
 
-**Install necessary dependency from package.json**
+1. **Navigate to Backend Directory:**
 
-`npm install -s`
+   ```bash
+   cd backend
+   ```
 
-**Once dependencies are installed, run the server using the following command**
+2. **Create and Configure the `.env` File:**
 
-`npm run dev`
+   Add the following variables:
 
-Alternate Command to run the server once
+   ```env
+   PORT=
+   MONGODB_URL=""
+   JWT_SECRET=""
+   ```
 
-`node server.js`
+3. **Install Dependencies:**
 
-**Backend API URL**
-```
- http://localhost:{PORT}/api/
-```
-**Make Sure to replace the proper PORT value for Backend API**
+   ```bash
+   npm install -s
+   ```
 
-**Access the application:**
-Open your web browser and navigate to (LOCAL_HOST_URL).
-If you would like to contribute to the project, please follow the contribution guidelines.
+4. **Run the Backend Server:**
 
-## Testing Frontend with Localhost Backend Server
+   - For development:
 
-When working with a backend server running on localhost, frontend developers can follow these guidelines to test their application:
+     ```bash
+     npm run dev
+     ```
 
-### Since our server is currently hosted locally, it is advisable to utilize an emulator instead of a real device for API testing. 
+   - To run the server once:
 
-1. **Start the backend server**
-   - Before testing the frontend application, ensure that the backend server is running on localhost.
-   - Navigate to the backend project directory and start the server (e.g., `node server.js` for a Node.js server).
-   - The server should be listening on a specific port (e.g., `http://localhost:{PORT}`).
+     ```bash
+     node server.js
+     ```
 
-2. **Configure the frontend application**
-   - In the frontend application, locate the configuration file or the section where the API base URL is defined.
-   - Set the API base URL to point to the local backend server.
+5. **Backend API URL:**
 
-3. **Use appropriate HTTP clients**
-   - During development, frontend developers can use browser tools like the Network tab in the developer tools or dedicated HTTP clients like Postman or Insomnia to test the backend API endpoints.
-   - Send HTTP requests to the local backend server and observe the responses.
+   ```url
+   http://localhost:{PORT}/api/
+   ```
 
-4. **Handle CORS (Cross-Origin Resource Sharing)**
-   - If the frontend application is running on a different port or domain than the backend server, the browser may block the requests due to CORS restrictions.
-   - To handle CORS, the backend server should be configured to allow cross-origin requests from the frontend application's origin.
-   - CORS is handled in the current backend server
+   Replace `{PORT}` with the appropriate port number.
 
-5. **Proxy requests (optional)**
-   - Some frontend frameworks (e.g., Create React App, Vue CLI) provide a built-in proxy feature that forwards requests from the frontend application to the backend server.
-   - Configure the proxy in the frontend application's development settings to automatically forward API requests to the local backend server.
+## Testing Frontend with Localhost Backend Server: 🧪
 
-6. **Use environment variables**
-   - Avoid hardcoding the backend server URL in the frontend application.
-   - Instead, use environment variables to store the backend server URL and read it during runtime.
+### Guidelines for Frontend Developers:
 
-7. **Test different scenarios**
-   - Test various user flows and interactions with the backend API, such as creating, reading, updating, and deleting data.
-   - Simulate different scenarios, including error cases and edge cases, to ensure the frontend application and backend server handle them correctly.
+1. **Start the Backend Server:**
 
-**Access the application:**
-Open your web browser and navigate to (LOCAL_HOST_URL).
-If you would like to contribute to the project, please follow the contribution guidelines. 
-  </details>
+   Ensure the backend server is running on localhost. Start the server from the backend project directory (e.g., `node server.js`).
+
+2. **Configure the Frontend Application:**
+
+   Set the API base URL in the frontend configuration to point to the local backend server.
+
+3. **Use HTTP Clients:**
+
+   Test backend API endpoints using browser tools or dedicated HTTP clients like Postman or Insomnia.
+
+4. **Handle CORS:**
+
+   Configure the backend server to allow cross-origin requests if the frontend runs on a different port/domain.
+
+5. **Proxy Requests (Optional):**
+
+   Use built-in proxy features of frontend frameworks to forward API requests to the backend server.
+
+6. **Use Environment Variables:**
+
+   Store the backend server URL in environment variables instead of hardcoding.
+
+7. **Test Different Scenarios:**
+
+   Simulate various user flows, including error and edge cases, to ensure proper handling.
+
+**Access the Application:**
+
+Open your web browser and navigate to `LOCAL_HOST_URL`. Follow contribution guidelines if you'd like to contribute to the project.
+
+---
+
+</details>
 
 </details>
 
@@ -418,41 +467,50 @@ This project is licensed under the [MIT License](./LICENSE).
   <tr>
     <td align="center"><a href="https://github.com/SB2318"><img src="https://avatars.githubusercontent.com/u/87614560?v=4" width="120px;" alt=""/><br/><sub><b>Susmita Bhattacharya</b></sub></a></td>
     <td align="center"><a href="https://github.com/suhanipaliwal"><img src="https://avatars.githubusercontent.com/u/161575955?v=4" width="120px;" alt=""/><br/><sub><b>Suhani Singh Paliwal</b></sub></a></td>
+      <td align="center"><a href="https://github.com/BHS-Harish"><img src="https://avatars.githubusercontent.com/u/114602603?v=4" width="120px;" alt=""/><br/><sub><b>Balaharisankar Lakshmanaperumal</b></sub></a>
+        </td>  
     <td align="center"><a href="https://github.com/SharmaNishchay"><img src="https://avatars.githubusercontent.com/u/146124877?v=4" width="120px;" alt=""/><br/><sub><b>SharmaNischay</b></sub></a></td>
     <td align="center"><a href="https://github.com/officeneerajsaini"><img src="https://avatars.githubusercontent.com/u/118799941?v=4" width="120px;" alt=""/><br/><sub><b>Neeraj Saini</b></sub></a></td>
-     <td align="center"><a href="https://github.com/jaickeyminj"><img src="https://avatars.githubusercontent.com/u/95216865?v=4" width="120px;" alt=""/><br/><sub><b>Jaickey Joy Minj</b></sub></a></td>  
-     <td align="center"><a href="https://github.com/Asymtode712"><img src="https://avatars.githubusercontent.com/u/115717746?v=4" width="120px;" alt=""/><br/><sub><b>Siddheya Kulkarni</b></sub></a></td> 
+     <td align="center"><a href="https://github.com/meghanagottapu"><img src="https://avatars.githubusercontent.com/u/43183125?v=4" width="120px;" alt=""/><br/><sub><b>meghana gottapu</b></sub></a></td>
+ 
+     
  </tr>
    
    <tr>
+     <td align="center"><a href="https://github.com/jaickeyminj"><img src="https://avatars.githubusercontent.com/u/95216865?v=4" width="120px;" alt=""/><br/><sub><b>Jaickey Joy Minj</b></sub></a></td> 
+     <td align="center"><a href="https://github.com/Asymtode712"><img src="https://avatars.githubusercontent.com/u/115717746?v=4" width="120px;" alt=""/><br/><sub><b>Siddheya Kulkarni</b></sub></a></td>
     <td align="center"><a href="https://github.com/PradnyaGaitonde"><img src="https://avatars.githubusercontent.com/u/116059908?v=4" width="120px;" alt=""/><br/><sub><b>Pradnya Gaitonde</b></sub></a></td>
     <td align="center"><a href="https://github.com/sanmarg"><img src="https://avatars.githubusercontent.com/u/50082154?v=4" width="120px;" alt=""/><br/><sub><b>Sanmarg Sandeep Paranjpe</b></sub></a></td>
     <td align="center"><a href="https://github.com/adrikaDwivedi"><img src="https://avatars.githubusercontent.com/u/89826992?v=4" width="120px;" alt=""/><br/><sub><b>AdrikaDwivedi</b></sub></a></td>
     <td align="center"><a href="https://github.com/Arpcoder"><img src="https://avatars.githubusercontent.com/u/100352419?v=4" width="120px;" alt=""/><br/><sub><b>Arpna</b></sub></a></td>
-     <td align="center"><a href="https://github.com/alishasingh06"><img src="https://avatars.githubusercontent.com/u/114938485?v=4" width="120px;" alt=""/><br/><sub><b>Alisha Singh</b></sub></a></td>  
-     <td align="center"><a href="https://github.com/Sibam-Paul"><img src="https://avatars.githubusercontent.com/u/158052549?v=4" width="120px;" alt=""/><br/><sub><b>Sibam Paul</b></sub></a></td> 
+   
  </tr>
 
 <tr>
+   <td align="center"><a href="https://github.com/alishasingh06"><img src="https://avatars.githubusercontent.com/u/114938485?v=4" width="120px;" alt=""/><br/><sub><b>Alisha Singh</b></sub></a></td>  
+     <td align="center"><a href="https://github.com/Sibam-Paul"><img src="https://avatars.githubusercontent.com/u/158052549?v=4" width="120px;" alt=""/><br/><sub><b>Sibam Paul</b></sub></a></td> 
     <td align="center"><a href="https://github.com/rushiii3"><img src="https://avatars.githubusercontent.com/u/105168088?v=4" width="120px;" alt=""/><br/><sub><b>HRUSHIKESH SHINDE</b></sub></a></td>
     <td align="center"><a href="https://github.com/soham0005"><img src="https://avatars.githubusercontent.com/u/83421425?v=4" width="120px;" alt=""/><br/><sub><b>Soham Adhyapak</b></sub></a></td>
     <td align="center"><a href="https://github.com/kylie-kiaying"><img src="https://avatars.githubusercontent.com/u/133581245?v=4" width="120px;" alt=""/><br/><sub><b>Kylie</b></sub></a></td>
     <td align="center"><a href="https://github.com/Himanshu8850"><img src="https://avatars.githubusercontent.com/u/128601673?v=4" width="120px;" alt=""/><br/><sub><b>Himanshu Choudhary</b></sub></a></td>
-     <td align="center"><a href="https://github.com/Hemu21"><img src="https://avatars.githubusercontent.com/u/106808387?v=4" width="120px;" alt=""/><br/><sub><b>Hemanth kumar</b></sub></a></td>  
-     <td align="center"><a href="https://github.com/nishant0708"><img src="https://avatars.githubusercontent.com/u/101548649?v=4" width="120px;" alt=""/><br/><sub><b>Nishant Kaushal</b></sub></a></td> 
+  
  </tr>
 
  <tr>
+       <td align="center"><a href="https://github.com/Hemu21"><img src="https://avatars.githubusercontent.com/u/106808387?v=4" width="120px;" alt=""/><br/><sub><b>Hemanth kumar</b></sub></a></td> 
+     <td align="center"><a href="https://github.com/nishant0708"><img src="https://avatars.githubusercontent.com/u/101548649?v=4" width="120px;" alt=""/><br/><sub><b>Nishant Kaushal</b></sub></a></td> 
     <td align="center"><a href="https://github.com/Kamaleshbala01"><img src="https://avatars.githubusercontent.com/u/139665559?v=4" width="120px;" alt=""/><br/><sub><b>Kamalesh Bala</b></sub></a></td>
     <td align="center"><a href="https://github.com/ParthNakum21"><img src="https://avatars.githubusercontent.com/u/134558990?v=4" width="120px;" alt=""/><br/><sub><b>Parth Nakum</b></sub></a></td>
      <td align="center"><a href="https://github.com/Abhigna-arsam"><img src="https://avatars.githubusercontent.com/u/125258286?v=4" width="120px;" alt=""/><br/><sub><b>Abhigna Arsam</b></sub></a></td>
       <td align="center"><a href="https://github.com/MaryamMohamedYahya"><img src="https://avatars.githubusercontent.com/u/147263523?v=4" width="120px;" alt=""/><br/><sub><b>MaryamMohamedYahya</b></sub></a></td>
-    <td align="center"><a href="https://github.com/thevijayshankersharma"><img src="https://avatars.githubusercontent.com/u/109781385?v=4" width="120px;" alt=""/><br/><sub><b>Vijay Shanker Sharma</b></sub></a></td>
-    <td align="center"><a href="https://github.com/TonyStark-47"><img src="https://avatars.githubusercontent.com/u/73957207?v=4" width="120px;" alt=""/><br/><sub><b>Tony Stark</b></sub></a>
-        </td>
+
+  
  </tr>
 
  <tr>
+      <td align="center"><a href="https://github.com/thevijayshankersharma"><img src="https://avatars.githubusercontent.com/u/109781385?v=4" width="120px;" alt=""/><br/><sub><b>Vijay Shanker Sharma</b></sub></a></td>
+    <td align="center"><a href="https://github.com/TonyStark-47"><img src="https://avatars.githubusercontent.com/u/73957207?v=4" width="120px;" alt=""/><br/><sub><b>Tony Stark</b></sub></a>
+        </td>
    <td align="center"><a href="https://github.com/iamworrell"><img src="https://avatars.githubusercontent.com/u/99043769?v=4" width="120px;" alt=""/><br/><sub><b>Worrell Seville</b></sub></a>
         </td>  
 
@@ -464,10 +522,43 @@ This project is licensed under the [MIT License](./LICENSE).
    <td align="center"><a href="https://github.com/akshathere"><img src="https://avatars.githubusercontent.com/u/106247875?v=4" width="120px;" alt=""/><br/><sub><b>akshathere</b></sub></a>
         </td> 
 
+
+ </tr>
+
+ <tr>
+
    <td align="center"><a href="https://github.com/Ayushmaanagarwal1211"><img src="https://avatars.githubusercontent.com/u/118350936?v=4" width="120px;" alt=""/><br/><sub><b>Ayushmaan Agarwal</b></sub></a>
         </td> 
+    <td align="center"><a href="https://github.com/Damini2004"><img src="https://avatars.githubusercontent.com/u/119414762?v=4" width="120px;" alt=""/><br/><sub><b>Damini Chachane</b></sub></a>
+        </td> 
+   <td align="center"><a href="https://github.com/Parth20GitHub"><img src="https://avatars.githubusercontent.com/u/142086512?v=4" width="120px;" alt=""/><br/><sub><b>Parth Shah</b></sub></a>
+        </td>  
+  <td align="center"><a href="https://github.com/sreevidya-16"><img src="https://avatars.githubusercontent.com/u/115856774?v=4" width="120px;" alt=""/><br/><sub><b>Sree Vidya</b></sub></a>
+        </td> 
+  <td align="center"><a href="https://github.com/AsmitaMishra24"><img src="https://avatars.githubusercontent.com/u/146121869?v=4" width="120px;" alt=""/><br/><sub><b>Asmita Mishra</b></sub></a>
+        </td> 
+<td align="center"><a href="https://github.com/iamkanhaiyakumar"><img src="https://avatars.githubusercontent.com/u/120328606?v=4" width="120px;" alt=""/><br/><sub><b>Kanhaiya Kumar</b></sub></a>
+        </td> 
+   
  </tr>
- 
+ <tr>
+   
+   <td align="center"><a href="https://github.com/revanth1718"><img src="https://avatars.githubusercontent.com/u/109272714?v=4" width="120px;" alt=""/><br/><sub><b>Revanth</b></sub></a>
+        </td> 
+   <td align="center"><a href="https://github.com/arunimaChintu"><img src="https://avatars.githubusercontent.com/u/99474881?v=4" width="120px;" alt=""/><br/><sub><b>Arunima Dutta</b></sub></a>
+        </td> 
+   <td align="center"><a href="https://github.com/Maana-Ajmera"><img src="https://avatars.githubusercontent.com/u/162733812?v=4" width="120px;" alt=""/><br/><sub><b>Maana Ajmera</b></sub></a>
+        </td>  
+     <td align="center"><a href="https://github.com/ANKeshri"><img src="https://avatars.githubusercontent.com/u/159682348?v=4" width="120px;" alt=""/><br/><sub><b>Aditya Narayan</b></sub></a>
+        </td>  
+     
+  <td align="center"><a href="https://github.com/Utsavladia"><img src="https://avatars.githubusercontent.com/u/124615886?v=4" width="120px;" alt=""/><br/><sub><b>Utsav Ladia</b></sub></a>
+        </td>
+   
+   <td align="center"><a href="https://github.com/Nayanika1402"><img src="https://avatars.githubusercontent.com/u/132455412?v=4" width="120px;" alt=""/><br/><sub><b>Nayanika Mukherjee</b></sub></a>
+        </td>
+  
+ </tr>
    </p>
  </table>
 </div>
@@ -483,6 +574,4 @@ This project is licensed under the [MIT License](./LICENSE).
 </div> <br>
 
 <a href="#top" style="position: fixed; bottom: 20px; right: 20px; background-color: black ; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; border-radius: 5px; font-family: Arial; font-size: 16px;">Go to Top</a>
-
-
 
